@@ -1,0 +1,137 @@
+/* .header{
+    height: 3.4rem;
+} */
+
+.header .upper-header{
+    height: 4rem;
+    background-color: rgb(136, 136, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.8rem;
+    
+}
+
+.header .upper-header .icon h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header .searchInput{
+    width: 40rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 44, 225);
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.header .searchInput .searchIcon{
+    /* height: 100%; */
+    width: 10%;
+    font-size: 1rem;
+    color: white;
+    padding: 0 0.6rem;
+}
+
+.header .searchInput input{
+    height: 100%;
+    background-color: rgb(44, 44, 225);
+    width: 78%;
+    border: none;
+    outline: none;
+    color: white;
+    /* padding: 0 1rem; */
+    font-size: 1.1rem;
+}
+
+.header .searchInput input::placeholder{
+    color: rgba(227, 227, 227, 0.635);
+}
+
+.header .searchInput button{
+    height: 100%;
+    width: 8rem;
+    border: 1px solid rgb(159, 159, 159);
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.231);
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.header .searchInput button:hover{
+    background-color: rgb(116, 116, 255);
+    color: white;
+}
+
+.header .lower-header{
+    width: 100%;
+    height: 3.6rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.header .lower-header .city, .cluster, .space{
+    width: 15%;
+    height: 2.8rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .lower-header .city select{
+    width: 100%;
+    height: 2rem;
+    border: 1px solid rgb(192, 192, 255);
+    font-size: 1rem;
+    color: rgb(60, 60, 60);
+}
+
+.header .lower-header .cluster select{
+    width: 100%;
+    border: 1px solid rgb(192, 192, 255);
+    height: 2rem;
+    color: rgb(60, 60, 60);
+    font-size: 1rem;
+}
+
+.header .lower-header .space select{
+    width: 100%;
+    border: 1px solid rgb(192, 192, 255);
+    height: 2rem;
+    color: rgb(60, 60, 60);
+    font-size: 1rem;
+}
+
+
+.header .lower-header .lower-btn{
+    width: 20%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .lower-header .lower-btn button{
+    width: 50%;
+    height: 2rem;
+    margin: 0 1rem;
+    background-color: rgb(116, 116, 255);
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.326);
+}
+
+.header .lower-header .lower-btn button:hover{
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.364);
+}
