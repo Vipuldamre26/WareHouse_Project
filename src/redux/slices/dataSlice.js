@@ -13,10 +13,13 @@ const dataSlice = createSlice({
         },
         setFilteredData: (state, action) => {
             state.data = action.payload
+        },
+        setUpdatedData: (state, action) => {
+            state.data = action.payload
         }
     }
 })
 
-export const { setData, setSearch, setFilteredData } = dataSlice.actions;
+export const { setData, setSearch, setFilteredData, setUpdatedData } = dataSlice.actions;
 
 export default dataSlice.reducer;

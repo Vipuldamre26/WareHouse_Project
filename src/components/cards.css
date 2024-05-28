@@ -73,3 +73,15 @@
     cursor: pointer;
 }
 
+.cards .cards-main .is{
+    height: 2rem;
+    width: 100%;
+    margin: auto;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.269);
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+

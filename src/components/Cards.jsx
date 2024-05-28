@@ -43,8 +43,8 @@ const Cards = () => {
                                     <strong>Type: {item.type}</strong>
                                     <p>City: {item.city}</p>
                                     <div className='is'>
-                                        <span>{item.is_live}</span>
-                                        <span>{item.is_registered}</span>
+                                        <span>Is_Live: {item.is_live ? 'Yes' : 'No'}</span>
+                                        <span>Is_Registered: {item.is_registered ? 'Yes' : 'No'}</span>
                                     </div>
                                     <button>Check this out</button>
                                 </div>
